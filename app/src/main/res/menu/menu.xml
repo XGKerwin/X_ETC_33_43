@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/gslk"
+        android:title="高速路况"
+        />
+
+    <item android:id="@+id/gsETC"
+        android:title="高速TEC"
+        />
+
+    <item android:id="@+id/lxxx"
+        android:title="旅行信息"
+        />
+
+    <item android:id="@+id/tqxx"
+        android:title="天气信息"
+        />
+
+    <item android:id="@+id/ewm"
+        android:title="二维码支付"
+        />
+
+    <item android:id="@+id/dzbc"
+        android:title="定制班车"
+        />
+
+    <item android:id="@+id/xwmt"
+        android:title="新闻媒体"
+        />
+
+    <item android:id="@+id/ICcz"
+        android:title="IC卡充值"
+        />
+
+    <item android:id="@+id/clsf"
+        android:title="车辆收费查询"
+        />
+
+    <item android:id="@+id/tcc"
+        android:title="停车场"
+        />
+    <item android:id="@+id/xccz"
+        android:title="小车充值"/>
+
+
+</menu>

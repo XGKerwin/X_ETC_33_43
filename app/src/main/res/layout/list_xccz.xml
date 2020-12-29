@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tubiao"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_number"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="一号小车"
+                android:textSize="25dp"
+                android:gravity="center|left"
+                />
+            <TextView
+                android:id="@+id/txt_jine"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="一号小车"
+                android:textSize="25dp"
+                android:gravity="center|left"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btn_chongzhi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="充 值"
+            android:layout_gravity="center"
+            android:background="@drawable/zi_1_yuan"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

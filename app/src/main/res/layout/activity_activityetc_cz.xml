@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/biaoti"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="80dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="车 牌 号："
+                />
+
+            <EditText
+                android:id="@+id/ed_cph"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:maxLength="5"
+                android:hint=" 10001"
+                android:inputType="number"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="充值金额："
+                />
+
+            <Button
+                android:id="@+id/btn_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10元"
+                android:textSize="25dp"
+                android:background="@drawable/bg_hei"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/btn_50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50元"
+                android:textSize="25dp"
+                android:background="@drawable/bg_hei"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/btn_100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100元"
+                android:textSize="25dp"
+                android:background="@drawable/bg_hei"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:layout_marginLeft="30dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="80dp"
+            >
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:hint="1-999"
+                android:inputType="number"
+                android:maxLines="3"
+                android:background="@drawable/bg_hei"
+                android:layout_marginLeft="150dp"
+                android:id="@+id/ed_jine"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="元"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:id="@+id/btn_cz"
+                android:text="充值"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/bg_hei"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/cz_lan"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IC 卡充值"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@drawable/cz_bai"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="人员姓名："
+                    android:textSize="30dp"
+                    android:layout_marginTop="50dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IC卡号："
+                    android:textSize="30dp"
+                    android:layout_marginTop="50dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="账户余额："
+                    android:textSize="30dp"
+                    android:layout_marginTop="50dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="充值金额："
+                    android:textSize="30dp"
+                    android:layout_marginTop="50dp"
+                    />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="充值"
+                    android:id="@+id/btn_chongzhi"
+                    android:textSize="35dp"
+                    android:padding="20dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/cz_lan_yuan"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.3"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="管理员"
+                    android:textSize="30dp"
+                    android:layout_marginTop="50dp"
+                    />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ed_kahao"
+                    android:maxLength="1"
+                    android:layout_marginTop="50dp"
+                    android:textSize="20dp"
+                    android:inputType="number"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:id="@+id/txt_yue"
+                    android:textSize="30dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/ed_jine"
+                    android:layout_marginTop="50dp"
+                    android:textSize="20dp"
+                    android:paddingLeft="10dp"
+                    android:inputType="number"
+                    android:background="@drawable/cz_bai"
+                    />
+
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="退出"
+                    android:id="@+id/btn_tuichu"
+                    android:textSize="35dp"
+                    android:padding="20dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/cz_lan_yuan"
+                    />
+
+
+            </LinearLayout>
+
+            
+            
+            
+            
+            
+            
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:background="@drawable/linbai2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="@drawable/lin2"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="车辆收费查询"
+            android:gravity="center"
+            android:textSize="25dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@drawable/linbai2"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:text="查询时间："
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/txt_riqi"
+                android:text=""
+                android:gravity="center"
+                android:background="@drawable/linbai2"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                />
+
+            <ImageView
+                android:id="@+id/img_riqi"
+                android:layout_gravity="center"
+                android:src="@drawable/xiajian"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/txt_time"
+                android:text=""
+                android:gravity="center"
+                android:background="@drawable/linbai2"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                />
+
+            <ImageView
+                android:id="@+id/img_time"
+                android:layout_gravity="center"
+                android:src="@drawable/shuangxia"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                />
+
+            <ImageView
+                android:src="@drawable/laxianjiantou"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                />
+
+
+            <TextView
+                android:id="@+id/txt_riqi2"
+                android:text=""
+                android:background="@drawable/linbai2"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                />
+
+            <ImageView
+                android:id="@+id/img_riqi2"
+                android:layout_gravity="center"
+                android:src="@drawable/xiajian"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/clsf_txt_time2"
+                android:text=""
+                android:background="@drawable/linbai2"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                />
+
+            <ImageView
+                android:id="@+id/img_time2"
+                android:layout_gravity="center"
+                android:src="@drawable/shuangxia"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:background="@drawable/linbai2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:text="车讯结果"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:textColor="#395F8C"
+                    android:background="@drawable/lin2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="IC卡号"
+                    android:gravity="center"
+                    android:textColor="#395F8C"
+                    android:background="@drawable/linbai2"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="车牌号码"
+                    android:gravity="center"
+                    android:textColor="#395F8C"
+                    android:background="@drawable/linbai2"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="人员姓名"
+                    android:gravity="center"
+                    android:textColor="#395F8C"
+                    android:background="@drawable/linbai2"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="入场时间"
+                    android:gravity="center"
+                    android:textColor="#395F8C"
+                    android:background="@drawable/linbai2"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="出场时间"
+                    android:gravity="center"
+                    android:textColor="#395F8C"
+                    android:background="@drawable/linbai2"
+                    />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="收费金额"
+                    android:gravity="center"
+                    android:textColor="#395F8C"
+                    android:background="@drawable/linbai2"
+                    />
+
+            </LinearLayout>
+
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            </ListView>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/clsf_btn_chaxun"
+                android:background="@drawable/lin2"
+                android:text="查询"
+                android:textSize="25dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/clsf_btn_tuichu"
+                android:background="@drawable/lin2"
+                android:layout_marginLeft="100dp"
+                android:text="退出"
+                android:textSize="25dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

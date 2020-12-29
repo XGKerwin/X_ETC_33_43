@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/biaoti"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="充值合计：2422元"
+        android:textSize="35dp"
+        android:id="@+id/txt_sum"
+        android:padding="30dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="车辆编号"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_hei"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="车牌号"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_hei"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="充值金额"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_hei"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="充值时间"
+                android:layout_weight="1"
+                android:textSize="25dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_hei"
+                />
+
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listview"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

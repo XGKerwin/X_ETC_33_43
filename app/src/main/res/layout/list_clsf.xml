@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/txt_kahao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="IC卡号"
+            android:gravity="center"
+            android:textColor="#395F8C"
+            android:textSize="25dp"
+            android:background="@drawable/linbai2"
+            />
+
+        <TextView
+            android:id="@+id/txt_cp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="车牌号码"
+            android:gravity="center"
+            android:textColor="#395F8C"
+            android:textSize="25dp"
+            android:background="@drawable/linbai2"
+            />
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="人员姓名"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#395F8C"
+            android:background="@drawable/linbai2"
+            />
+
+        <TextView
+            android:id="@+id/time1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="入场时间"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#395F8C"
+            android:background="@drawable/linbai2"
+            />
+
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="出场时间"
+            android:gravity="center"
+            android:textColor="#395F8C"
+            android:textSize="25dp"
+            android:background="@drawable/linbai2"
+            />
+
+        <TextView
+            android:id="@+id/txt_jine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="收费金额"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#395F8C"
+            android:background="@drawable/linbai2"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

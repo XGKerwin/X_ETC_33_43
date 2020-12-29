@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成付款二维码"
+        android:textSize="30dp"
+        android:paddingTop="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:padding="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车辆编号："
+            android:textSize="30dp"
+            />
+
+        <Spinner
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:padding="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="付费金额："
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:id="@+id/ed_jine"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+            android:textSize="30dp"
+            android:background="@drawable/bg_hei"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:padding="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二维码更新周期："
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:id="@+id/ed_zhouqi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+            android:textSize="30dp"
+            android:background="@drawable/bg_hei"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="秒"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_shengcheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生成"
+        android:textSize="30dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#fff"
+        android:background="@drawable/lanse_yuan"
+        />
+
+
+</LinearLayout>
